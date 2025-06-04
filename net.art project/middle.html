@@ -4,18 +4,17 @@
         <meta charset="UTF-8" />
         <title>Title</title>
         <style>
-            #container {
+            .container {
                 width: 1600px;
                 height: 900px;
                 position: relative;
             }
             #img1 {
                 position: absolute;
-                z-index=
             }
             #img2 {
                 position: absolute;
-                z-index: -1
+                z-index: -1;
             }
             #img3 {
                 position: absolute;
@@ -32,6 +31,7 @@
                 width: 700px;
                 height: 200px;
                 background-color: aliceblue;
+                opacity: 0.75;
                 z-index: 1;
                 margin-top: 20px;
                 text-align: left;
@@ -45,6 +45,7 @@
                 width: 700px;
                 height: 200px;
                 background-color: #000000;
+                opacity: 0.75;
                 z-index: 1;
                 margin-top: 20px;
                 margin-left: 830px;
@@ -56,15 +57,33 @@
                 border-radius: 15px;
                 color: aliceblue;
             }
-            #links {
-
+            #link1 {
+                position: absolute;
+                margin-left: 50px;
+                margin-top: 800px;
+                z-index: 1;
+                font-size: 30px;
+                color: black;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #link2 {
+                position: absolute;
+                margin-left: 1400px;
+                margin-top: 50px;
+                font-size: 30px;
+                color: white;
+                background-color: black;
+                font-family: sans-serif;
+                z-index: 1;
             }
         </style>
     </head>
     <body>
-        <div id="container">
-            <img id="img3" src="road.png" />
+        <div class="container">
             <img id="img1" src="city.png" />
+            <img id="img2" src="middlesky.png" />
+            <img id="img3" src="road.png" />
             <div id="text">
                 <div id="h1color">
                     <h1>The internet walks life across a virtual path -</h1>
@@ -72,11 +91,11 @@
                 <div id="h2color">
                     <h1>Which can lead to self-destruction or growth.</h1>
                 </div>
+                <div>
+                    <a id="link2" href="end.html">Continue</a>
+                    <a id="link1" href="start.html">Back</a>
+                </div>
             </div>
-            <img id="img2" src="middlesky.png" />
-        </div>
-        <div id="links">
-            <a href="Start.html">Back to the Beginning</a>
         </div>
     </body>
 </html>
