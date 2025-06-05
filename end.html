@@ -1,8 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <title>Title</title>
+        <style>
+            #container {
+                width: 1600px;
+                height: 900px;
+                position: relative;
+            }
+            #tabletop {
+                position: absolute;
+                z-index: -1;
+            }
+            #laptop {
+                position: absolute
+            }
+        </style>
     </head>
-    <body>fff</body>
+    <body id="container">
+        <div id="tabletop">
+            <img src="tabletop.png" />
+        </div>
+        <div id="laptop">
+            <img src="laptop.png">
+            
+        </div>
+    </body>
 </html>
