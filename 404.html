@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Oopsie Daisies!</title>
+        <style>
+            html, body {
+                background-color: dimgrey;
+                height: 100%;
+            }
+            #container {
+                width: 90%;
+                height: 100%;
+                margin: auto; 
+                position: relative;
+            }
+            #fourohfour {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 10;
+            }
+            #fourohfour span {
+                color: aqua;
+                font-size: 35em;
+                font-weight: bold;
+            }
+            #message {
+                position: absolute;
+                width: 50%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 10;
+                color: cornflowerblue;
+                font-size: 2em;
+                font-weight: bold;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="fourohfour"><span>404</span></div>
+            <div id="message">
+                <p>
+                    Woah, you aren't supposed to be here...<br />
+                    <a href="index.html">Click here to go back to the index</a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
