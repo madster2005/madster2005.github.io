@@ -8,10 +8,15 @@
                 width: 1600px;
                 height: 900px;
                 position: relative;
+                background-image: url(code2.png);
             }
             #tabletop {
                 position: absolute;
                 z-index: 1;
+            }
+            #hills {
+                position: absolute;
+                z-index: 0;
             }
             #laptop {
                 position: absolute;
@@ -19,9 +24,35 @@
             }
             #linkback {
                 position: absolute;
-                z-index: 3;
+                z-index: 5;
                 margin-left: 10px;
                 margin-top: 10px;
+                color: aquamarine;
+            }
+            #text1 {
+                position: absolute;
+                height: 500px;
+                width: 350px;
+                margin-left: 20px;
+                margin-top: 20px;
+                font-size: 60px;
+                text-align: left;
+                font-family: sans-serif;
+                z-index: 4;
+                color: aliceblue;
+            }
+            #text2 {
+                position: absolute;
+                height: 500px;
+                width: 350px;
+                margin-left: 1200px;
+                margin-top: 20px;
+                font-size: 60px;
+                text-align: right;
+                font-family: sans-serif;
+                z-index: 4;
+                
+                
             }
         </style>
     </head>
@@ -34,6 +65,15 @@
         </div>
         <div id="laptop">
             <img src="endgif.gif" alt="A GIF of wavy water on a lake displayed on a laptop." />
+        </div>
+        <div id="text1">
+            <p><strong>Maybe, the internet is a form of human life...</strong></p>
+        </div>
+        <div id="text2">
+            <p><strong>...That breaks organic barriers.</strong></p>
+        </div>
+        <div id="hills">
+            <img src="hills.png">
         </div>
     </body>
 </html>
