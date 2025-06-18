@@ -19,38 +19,43 @@
             }
             .container .earth {
                 position: fixed;
-                clip-path: ellipse(50% 45%);
-                object-fit: contain;
+                height: 600px;
+                width: 600px;
+                clip-path: ellipse(50% 50%);
+                object-fit: cover;
                 height: auto;
                 width: auto;
                 margin-left: 425px;
-                margin-top: 120px;
+                margin-top: 75px;
                 z-index: 3;
                 filter: contrast(150%);
             }
             .container .outline {
-                background-color: rgba(0, 107, 255, 0.63);
-                height: 425px;
+                background-color: rgb(204, 0, 0);
+                backdrop-filter: blur(10px);
+                
+                height: 450px;
                 width: 450px;
                 position: fixed;
                 z-index: 2;
                 margin-left: 400px;
-                margin-top: 174px;
+                margin-top: 50px;
                 clip-path: ellipse(50% 50%);
-                opacity: 80%;
-                filter: blur(100%);
+                opacity: 75%;
             }
             #page2 {
                 position: fixed;
-                margin-left: 60px;
+                margin-left: 70px;
                 margin-top: 515px;
-                padding: 10px;
+                padding: 15px;
                 border-radius: 15px;
                 font-size: 75px;
                 text-align: center;
                 font-family: cursive; 
-                background-color: rgba(0, 0, 0, 0.72);
+                background-color: rgba(0, 3, 48, 0.76);
                 z-index: 3;
+                text-shadow: 2px 2px black;
+                backdrop-filter: blur(10px)
             }
             #portfolio {
                 margin-left: 10px;
@@ -61,15 +66,24 @@
                 border-radius: 5px;
                 
             }
+            p {
+                font-size: 30px;
+                color: rgb(193, 198, 255);
+                text-shadow: 2px 2px black;
+                
+    
+            }
         </style>
     </head>
     <body>
         <div class="container">
-            <img class="earth" src="/sourcecontent/htmlstory/earth.png" />
+            <img class="earth" src="/sourcecontent/htmlstory/earth.png" alt="A view of the Boneyard from Google Earth." />
             <div class="outline"></div>
         </div>
         <div id="page2">
             <a href="html-story-2.html" style="color: white"><strong>EXPLORE THE BONEYARD</strong></a>
+            <p>A graveyard of man's most ambitious creations - The ones left behind.</p>
+            <p>What trash can be our treasure?</p>
         </div>
         <a id="portfolio" href=/index.html>Back to Portfolio</a>
     </body>
