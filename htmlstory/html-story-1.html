@@ -6,57 +6,30 @@
         <style>
             html {
                 background: url(/sourcecontent/htmlstory/boneyard1.png) no-repeat center fixed;
+                background-color: black;
             }
-            .container {
-                position: absolute;
-                margin: auto;
-            }
-            #index {
+            .container1 {
                 position: relative;
-                font-size: 15px;
-                font-family: sans-serif;
-                color: aliceblue;
-            }
-            .container .earth {
-                position: fixed;
-                height: 600px;
-                width: 600px;
-                clip-path: ellipse(50% 50%);
-                object-fit: cover;
-                height: auto;
-                width: auto;
-                margin-left: 425px;
-                margin-top: 75px;
-                z-index: 3;
-                filter: contrast(150%);
-            }
-            .container .outline {
-                background-color: rgb(204, 0, 0);
-                backdrop-filter: blur(10px);
-                
-                height: 450px;
-                width: 450px;
-                position: fixed;
-                z-index: 2;
-                margin-left: 400px;
-                margin-top: 50px;
-                clip-path: ellipse(50% 50%);
-                opacity: 75%;
-            }
-            #page2 {
-                position: fixed;
-                margin-left: 70px;
-                margin-top: 515px;
-                padding: 15px;
+                margin:auto;
+                margin-top: 200px;
+                padding: 10px;
                 border-radius: 15px;
-                font-size: 75px;
+                font-size: 100px;
                 text-align: center;
-                font-family: cursive; 
+                font-family: monospace; 
                 background-color: rgba(0, 3, 48, 0.76);
-                z-index: 3;
+                z-index: 1;
                 text-shadow: 2px 2px black;
                 backdrop-filter: blur(10px)
             }
+            p {
+                position: relative;
+                font-size: 30px;
+                color: rgb(193, 198, 255);
+                text-shadow: 2px 2px black;
+                text-align: center;
+            }
+                
             #portfolio {
                 margin-left: 10px;
                 margin-top: 10px;
@@ -66,25 +39,20 @@
                 border-radius: 5px;
                 
             }
-            p {
-                font-size: 30px;
-                color: rgb(193, 198, 255);
-                text-shadow: 2px 2px black;
-                
-    
-            }
         </style>
     </head>
     <body>
-        <div class="container">
-            <img class="earth" src="/sourcecontent/htmlstory/earth.png" alt="A view of the Boneyard from Google Earth." />
-            <div class="outline"></div>
-        </div>
-        <div id="page2">
-            <a href="html-story-2.html" style="color: white"><strong>EXPLORE THE BONEYARD</strong></a>
-            <p>A graveyard of man's most ambitious creations - The ones left behind.</p>
-            <p>What trash can be our treasure?</p>
-        </div>
         <a id="portfolio" href=/index.html>Back to Portfolio</a>
+        <div id="text">
+           
+         </div>
+        <div class="container1">
+             <p>A graveyard of man's most ambitious creations -<br>The ones left behind.</p>
+            <a href="html-story-2.html" style="color: white"><strong>EXPLORE THE BONEYARD</strong></a>
+            <p>What trash can become our treasure?</p>
+        </div>
+        
+        
+        
     </body>
 </html>
