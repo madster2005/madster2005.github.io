@@ -2,63 +2,108 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Practice Run</title>
+        <title>My Inspiration</title>
         <style>
             html {
-                background: url(/sourcecontent/htmlstory/Boneyard2.png) no-repeat center fixed;
-                background-color: black;
+                background-image: linear-gradient(#850000, #ed9c00);
             }
-            .container {
-                display: flex;
-                justify-content: center;
+            .container1 {
+                width: 1000px;
+                height: 500px;
+                background-image: url(/sourcecontent/htmlstory/exampleplane2.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-top: 10px;
+                z-index: 1;
+                position: relative;
+            }
+            .container2 {
+                width: 800px;
                 height: 600px;
-                margin-top: 100px;
+                background-image: url(/sourcecontent/htmlstory/exampleplane.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-left: 500px;
+                position: relative;
+                z-index: 2;
             }
-            p {
-                text-align: center;
-                font-size: 30px;
+            h1 {
+                color: #fff2cc;
                 font-family: monospace;
-                background-color: rgba(247, 255, 240, 0.42);
-                backdrop-filter: blur(10px);
-                border-radius: 15px;
-                padding: 10px;
+                font-size: 100px;
+                margin-left: 150px;
+                margin-top: -100px;
+                position: absolute;
+                text-shadow: 5px 5px rgba(30, 0, 0, 0.68);
+                text-align: center;
+                background-color: rgba(119, 10, 10, 0.55);
+                z-index: 3;
+                border-radius: 20px;
+                padding: 5px;
             }
-            #back {
-                font-size: 20px;
-                font-family: arial;
-                color: black;
+            #p1 {
+                color: wheat;
+                padding-left: 600px;
+                padding-top: 20px;
+                text-align: left;
+                font-family: monospace;
+                font-size: 15px;
+            }
+            #p2 {
+                text-align: right;
+                color: #2b200b;
+                font-family: monospace;
+                padding-right: 300px;
+                padding-top: 120px;
+                font-size: 15px;
+            }
+            #a1 {
+                color: wheat;
+                background-color: black;
                 padding: 5px;
                 border-radius: 5px;
-                text-align: center;
+                font-family: monospace;
+                margin-left: 1000px;
+                margin-top: 500px;
                 position: absolute;
+                font-size: 25px;
+                text-align: center;
+                z-index: 3;
             }
-            #forward {
-                justify-content: flex-end;
-                display: flex;
+            #a2 {
+                color: wheat;
+                background-color: black;
                 padding: 5px;
-                font-size: 20px;
-                font-family: arial;
-                color: black;
+                border-radius: 5px;
+                font-family: monospace;
+                position: absolute;
+                text-align: center;
+                font-size: 25px;
+                margin: 40px;
+                z-index: 3;
             }
         </style>
     </head>
     <body>
-        <div>
-            <a id="back" href="html-story-1.html">Back</a>
-            <a id="forward" href="Html-story-3.html">Continue</a>
+        <a id="a2" href="html-story-1.html">Back</a>
+        <div class="container1">
+            <p id="p1">
+                <strong
+                    >In previous explorations of this place, I noticed some aircraft already painted in artistic ways.
+                    When I later did some research, I found out that it was part of an overall project in collaboration
+                    with The Smithsonian.</strong
+                >
+            </p>
         </div>
-
-        <div class="container">
-            <img src="/originalcontent/gifs/ac130.gif" alt="The front end of an AC-130." />
+        <h1>WHAT SENT ME HERE?</h1>
+        <a id="a1" href="html-story-3.html">What we came up with...</a>
+        <div class="container2">
+            <p id="p2">
+                <strong
+                    >Seeing how much potential doing this has, I decided to create my own little group with some friends
+                    to try it out for ourselves. We hope to add our own unique flare to our project planes.</strong
+                >
+            </p>
         </div>
-
-        <p>
-            <strong
-                >My goals here are kinda weird, but that just makes it better.<br />I saw that the Smithsonian used some
-                of these old things<br />as a canvas, so I'm going to follow in their footsteps. Found this<br />decapitated
-                front end of a plane, and decided to use it for inital<br />practice. No method to this mayhem, but it
-                did come out looking<br />a bit like a chicken...</strong
-            >
-        </p>
     </body>
 </html>

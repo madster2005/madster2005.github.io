@@ -1,8 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Title</title>
+        <title>Practice Run</title>
+        <style>
+            html {
+                background: url(/sourcecontent/htmlstory/Boneyard2.png) no-repeat center fixed;
+                background-color: black;
+            }
+            .container {
+                display: flex;
+                justify-content: center;
+                height: 600px;
+                margin-top: 100px;
+            }
+            p {
+                text-align: center;
+                font-size: 30px;
+                font-family: monospace;
+                background-color: rgba(247, 255, 240, 0.42);
+                backdrop-filter: blur(10px);
+                border-radius: 15px;
+                padding: 10px;
+            }
+            #back {
+                font-size: 20px;
+                font-family: arial;
+                color: black;
+                padding: 5px;
+                border-radius: 5px;
+                text-align: center;
+                position: absolute;
+            }
+            #forward {
+                justify-content: flex-end;
+                display: flex;
+                padding: 5px;
+                font-size: 20px;
+                font-family: arial;
+                color: black;
+            }
+        </style>
     </head>
-    <body></body>
+    <body>
+        <div>
+            <a id="back" href="html-story-1.html">Back</a>
+            <a id="forward" href="Html-story-3.html">Continue</a>
+        </div>
+
+        <div class="container">
+            <img src="/originalcontent/gifs/ac130.gif" alt="The front end of an AC-130." />
+        </div>
+
+        <p>
+            <strong
+                >My goals here are kinda weird, but that just makes it better.<br />I saw that the Smithsonian used some
+                of these old things<br />as a canvas, so I'm going to follow in their footsteps. Found this<br />decapitated
+                front end of a plane, and decided to use it for inital<br />practice. No method to this mayhem, but it
+                did come out looking<br />a bit like a chicken...</strong
+            >
+        </p>
+    </body>
 </html>
