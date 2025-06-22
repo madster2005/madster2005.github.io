@@ -4,30 +4,41 @@
         <meta charset="UTF-8" />
         <title>Journey Into Web Design</title>
         <style>
+            html {
+                display: flex;
+                justify-content: center;
+            }
             #container {
                 height: 900px;
-                width: 1600px;
+                width: 900px;
                 margin: auto;
                 background-color: #ffc890;
-                position: absolute;
+                position: relative;
+                z-index: 1;
+                margin-top: 50px;
+                padding-top: 50px;
             }
             #title {
                 font-size: 60px;
                 text-align: center;
                 font-family: sans-serif;
                 color: #a05822;
+                z-index: 2;
             }
             a {
                 color: #931e1e;
                 font-size: 35px;
                 font-family: sans-serif;
                 margin-left: 40px;
+                z-index: 3;
+                
             }
         </style>
     </head>
     <body style="background-color: black">
+         <p id="title"><strong>A Journey Into Web Design - Archive of Projects</strong></p>
         <div id="container">
-            <p id="title"><strong>A Journey Into Web Design - Archive of Projects</strong></p>
+           
             <a href=/firsthtml/introduction.html>First Ever Use of HTML</a>
             <br />
             <br />
