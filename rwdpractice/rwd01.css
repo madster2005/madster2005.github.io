@@ -1,0 +1,71 @@
+/*optimized for computer screens*/
+
+@media only screen and (min-width: 1081px) {
+    body {
+        background-color: #25251e;
+    }
+    img {
+        height: 300px;
+        width: auto;
+        margin: 20px;
+    }
+}
+/*optimized for ipad screens 1080x800*/
+@media only screen and (min-width: 600px) and (max-width: 1080px) {
+    body {
+        background-color: #1a44b7;
+    }
+    img {
+        height: 235px;
+        width: auto;
+        margin: 10px auto;
+    }
+}
+/*optimized for phone screens*/
+@media only screen and (max-width: 599px) {
+    body {
+        background-color: #7e2c81;
+    }
+    img {
+        height: auto;
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+
+body {
+    color: #dceef6;
+    font-family: "segoe ui", tahoma, Verdana, sans-serif;
+}
+
+p {
+    color: #fac678;
+}
+span {
+    font-size: 0.9em;
+}
+#container {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin: 10px auto;
+}
+.identity {
+    position: absolute;
+    height: 100px;
+    width: auto;
+    top: 25px;
+    left: 0;
+    font-size: 1.2em;
+}
+.imgbox {
+    position: absolute;
+    margin: 0 auto;
+    top: 220px;
+}
+.footie {
+    margin: 70px auto 0;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+}
