@@ -1,4 +1,4 @@
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 900px) {
     body {
         background-image: radial-gradient(rgba(24, 49, 79, 0.69), rgba(13, 6, 48, 0.89));
     }
@@ -13,7 +13,7 @@
 }
 /*mobile format*/
 
-@media only screen and (min-width: 599px) {
+@media only screen and (min-width: 901px) {
     body {
         background-image: radial-gradient(rgba(139, 184, 178, 0.91), rgba(24, 49, 79, 0.94));
     }
