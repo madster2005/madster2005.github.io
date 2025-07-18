@@ -50,9 +50,9 @@
     }
     img {
         right: 0;
-        height: 350px;
+        height: 400px;
         margin: 10px;
-        clip-path: circle(45%);
+        clip-path: circle(30%);
         object-fit: contain;
         position: absolute;
         z-index: 0;
@@ -94,6 +94,6 @@ h1 {
     color: #18314f;
     text-shadow: -1px 0.5px 10px rgba(230, 249, 175, 0.65);
 }
-.img {
-    box-shadow: inset 50px 0 50px 0 rgb(0 0 0);
+img {
+    box-shadow: inset 50px 0 50px 0 rgba(230, 249, 175, 0.96);
 }
