@@ -25,6 +25,12 @@
         border-radius: 200px;
         margin: auto 15px;
     }
+    #footer {
+        position: absolute;
+        bottom: -800px;
+        text-align: center;
+        margin: 10px;
+    }
 }
 @media only screen and (min-width: 599px) {
     #header {
@@ -56,6 +62,11 @@
     .pics p {
         text-align: right;
         bottom: 0;
+    }
+    #footer {
+        position: absolute;
+        bottom: -250px;
+        text-align: center;
     }
 }
 
@@ -93,4 +104,9 @@
     object-position: center;
     position: relative;
     height: 550px;
+}
+#footer {
+    font-family: Verdana;
+    font-size: 15px;
+    color: rgba(13, 6, 48, 0.62);
 }
