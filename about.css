@@ -10,6 +10,27 @@
         font-size: 20px;
         text-align: center;
     }
+    .info {
+        text-align: center;
+    }
+    .info p {
+        width: 400px;
+        font-size: 18px;
+        margin-left: 10%;
+    }
+    .me {
+        position: relative;
+    }
+    .me img {
+        width: 350px;
+        border-radius: 100px;
+    }
+    #footer {
+        position: absolute;
+        bottom: -750px;
+        text-align: center;
+        margin: 10px;
+    }
 }
 
 @media only screen and (min-width: 599px) {
@@ -22,6 +43,28 @@
         width: 125px;
         height: 197px;
         font-size: 30px;
+        text-align: center;
+    }
+    .info {
+        margin-left: 100px;
+    }
+    .info p {
+        width: 450px;
+        font-size: 20px;
+    }
+    .me {
+        position: absolute;
+        right: 0;
+        margin-right: 100px;
+        top: 45px;
+    }
+    .me img {
+        width: 400px;
+        border-radius: 100px;
+    }
+    #footer {
+        position: absolute;
+        bottom: -200px;
         text-align: center;
     }
 }
@@ -44,4 +87,30 @@
     z-index: 1;
     text-shadow: 0 2px 10px rgba(183, 255, 238, 0.65);
     text-decoration: none;
+}
+.info {
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+.info h1 {
+    font-family: michroma;
+    font-size: 30px;
+    color: rgba(183, 255, 238, 0.38);
+    text-shadow: 0 1px 25px rgba(13, 5, 48, 0.35);
+}
+.info p {
+    font-family: Verdana;
+    color: rgb(13, 5, 48);
+    background-color: rgba(183, 255, 238, 0.34);
+    box-shadow: inset 0 0 15px rgba(230, 249, 175, 0.68);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#footer {
+    font-family: Verdana;
+    font-size: 15px;
+    color: rgba(13, 6, 48, 0.62);
 }
