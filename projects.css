@@ -14,6 +14,12 @@
     .links {
         margin: auto;
     }
+    #footer {
+        position: absolute;
+        bottom: -300px;
+        text-align: center;
+        margin: 10px;
+    }
 }
 @media only screen and (min-width: 599px) {
     #header {
@@ -28,7 +34,15 @@
         text-align: center;
     }
     .links {
-        margin-left: 75px;
+        margin: auto;
+    }
+    #footer {
+        position: relative;
+        bottom: 0;
+        text-align: center;
+        padding: 1px;
+        background-color: rgba(13, 6, 48, 0.51);
+        border-radius: 10px;
     }
 }
 #header {
@@ -63,4 +77,9 @@
     text-align: center;
     border-radius: 10px;
     padding: 5px;
+}
+#footer {
+    font-family: Verdana;
+    font-size: 15px;
+    color: rgba(230, 249, 175, 0.67);
 }
